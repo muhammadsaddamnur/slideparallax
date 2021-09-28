@@ -40,6 +40,9 @@ class _MyHomePageState extends State<MyHomePage> {
                 'https://images.tokopedia.net/img/cache/240/PYbRbC/2021/8/6/d1c4b788-27f3-463d-b40c-d2b1a6c845df.png.webp?ect=4g',
                 height: 300,
               ),
+              onTapHeader: () {
+                print('wkwk');
+              },
               height: 300,
               width: MediaQuery.of(context).size.width,
               // headerSpacing: 150,

@@ -1,6 +1,6 @@
 name: slideparallax
-description: A new Flutter package project.
-version: 0.0.1
+description: horizontal slide with parallax effect
+version: 0.0.2
 homepage: https://github.com/muhammadsaddamnur/slideparallax
 
 environment:

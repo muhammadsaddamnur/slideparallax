@@ -1,3 +1,6 @@
+
+  ![slideparallax](https://img.shields.io/pub/v/slideparallax.svg) ![enter image description here](https://badges.bar/slideparallax/likes) ![enter image description here](https://badges.bar/slideparallax/popularity) ![enter image description here](https://badges.bar/slideparallax/pub%20points) ![enter image description here](https://img.shields.io/github/stars/muhammadsaddamnur/slideparallax.svg?style=flat&logo=github&colorB=deeppink&label=stars)  ![enter image description here](https://img.shields.io/badge/license-MIT-purple.svg) 
+
 # slideparallax
 
 Scrollview parallax inspired by the Tokopedia & Bukalapak application.  
@@ -35,7 +38,18 @@ SlideParallax(
 ## Demo
 ![slideparallax](https://raw.githubusercontent.com/muhammadsaddamnur/slideparallax/main/slideparallax.gif)
 
-## Support me on Saweria
-[https://saweria.co/saddamnur](https://saweria.co/saddamnur)
 
-![saweria](https://raw.githubusercontent.com/muhammadsaddamnur/slideparallax/main/saweria.png)
+
+## Support Me 🙏
+
+  
+
+<a  href="https://www.buymeacoffee.com/saddamnur">![buymeacoffee.com/saddamnur](https://www.buymeacoffee.com/assets/img/guidelines/download-assets-sm-1.svg)</a>
+
+  
+
+<b> Bisa pake Gopay, Dana, Link Aja, OVO, dan QRIS loh gaes.... </b>
+
+<b>klik gambar dibawah ya </b>
+
+<a  href="https://saweria.co/saddamnur">![enter image description here](https://raw.githubusercontent.com/muhammadsaddamnur/float_bubble/main/saweria.png)</a>

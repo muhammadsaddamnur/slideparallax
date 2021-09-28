@@ -23,6 +23,10 @@ class SlideParallax extends StatefulWidget {
   ///
   final Widget header;
 
+  ///on tap header widget
+  ///
+  final Function()? onTapHeader;
+
   ///footer widget
   ///
   final Widget? footer;
@@ -43,6 +47,7 @@ class SlideParallax extends StatefulWidget {
       this.headerSpacing,
       this.trigger = 50,
       required this.header,
+      this.onTapHeader,
       required this.itemBuilder,
       required this.itemCount,
       this.footer})
@@ -110,12 +115,18 @@ class _SlideParallaxState extends State<SlideParallax> {
                 scrollDirection: Axis.horizontal,
                 slivers: [
                   SliverToBoxAdapter(
-                    child: Padding(
-                      padding: const EdgeInsets.all(1),
-                      child: SizedBox(
-                        width: widget.headerSpacing == null
-                            ? MediaQuery.of(context).size.width / 2.5
-                            : widget.headerSpacing,
+                    child: Material(
+                      color: Colors.transparent,
+                      child: InkWell(
+                        onTap: widget.onTapHeader,
+                        child: Padding(
+                          padding: const EdgeInsets.all(1),
+                          child: SizedBox(
+                            width: widget.headerSpacing == null
+                                ? MediaQuery.of(context).size.width / 2.5
+                                : widget.headerSpacing,
+                          ),
+                        ),
                       ),
                     ),
                   ),
